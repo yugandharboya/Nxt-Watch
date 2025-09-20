@@ -1,0 +1,46 @@
+/* .trending-videos-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+} */
+.trending-videos-main-content {
+  margin-right: 50px;
+}
+.main-content-header {
+  /* background-color: #cccccc; */
+  height: 100px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 30px;
+}
+.main-content-description {
+  /* background-color: #f4f4f4; */
+  padding: 15px 20px 0px 20px;
+  overflow-y: scroll;
+}
+.trending-header-icon-wrapper {
+  height: 80px;
+  width: 80px;
+  background-color: #cbd5e1;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.trending-header-icon {
+  height: 40px;
+  width: 30px;
+  color: #ff0000;
+}
+.trending-layout {
+  display: flex;
+}
+.trending-videos-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}

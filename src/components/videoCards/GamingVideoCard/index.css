@@ -1,0 +1,16 @@
+.gaming-video-card {
+  display: flex;
+  flex-direction: column;
+}
+.gaming-video-thumbnail {
+  height: 300px;
+  width: 200px;
+}
+.gaming-video-meta {
+  margin: 0px;
+  color: #64748b;
+  font-family: 'Roboto';
+}
+gaming-video-heading {
+  margin: 0px;
+}

@@ -1,0 +1,94 @@
+/* .app-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+} */
+.layout {
+  display: flex;
+  flex-grow: 1;
+}
+
+/* .promo-banner {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  height: 120px;
+  width: 80%;
+
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0px 0px 10px 10px;
+} */
+.banner-description {
+  display: flex;
+  flex-direction: column;
+}
+.close-button {
+  border-width: 0px;
+  background-color: transparent;
+  height: 0px;
+  cursor: pointer;
+}
+.home-main-content {
+  flex-grow: 1;
+}
+.promo-banner-logo {
+  height: 50px;
+  width: 100px;
+}
+.get-now-button {
+  background-color: #ffffff;
+
+  border: 1px solid #1e293b;
+  height: 30px;
+  width: 100px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  cursor: pointer;
+  font-weight: bold;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  border: 1px solid #7e858e;
+  /* background-color: #f9f9f9; */
+  height: 35px;
+}
+.search-element {
+  border-width: 0px;
+  outline: none;
+  margin-left: 10px;
+  flex-grow: 1;
+  border-right: 1px solid #7e858e;
+  height: 100%;
+}
+.search-button {
+  background-color: #f4f4f4;
+  border-width: 0px;
+  height: 100%;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+}
+/* .home-videos-container {
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 15px;
+} */
+.loader-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
