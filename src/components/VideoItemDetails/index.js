@@ -98,12 +98,8 @@ class VideoItemDetails extends Component {
   }
 
   renderSuccessView = addVideo => {
-    const {
-      videoDetails,
-      isLikeActive,
-      isDislikeActive,
-      isVideoSaved,
-    } = this.state
+    const {videoDetails, isLikeActive, isDislikeActive, isVideoSaved} =
+      this.state
     if (!videoDetails) return null
 
     const likeActive = isLikeActive ? 'active-button' : ''
